@@ -1,0 +1,38 @@
+header{ 
+     background-color: antiquewhite;
+     text-align: center;
+     margin: 0px auto;
+     }
+header img{
+    display: block;
+    margin: 0 auto;
+}
+header h3{
+    color: green;
+}
+nav{text-align: center;
+    margin-top: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+nav ul li a{
+     color: blue;
+     text-decoration: none;
+}
+nav ul li a:visited{
+    color: green;
+}
+nav ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
